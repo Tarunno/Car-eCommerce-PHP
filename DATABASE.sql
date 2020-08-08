@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 -- Table structure for table `cars`
 --
 
+CREATE DATABASE `car_dealership`;
+
 CREATE TABLE `cars` (
   `id` bigint(11) NOT NULL,
   `manufacturer` varchar(256) NOT NULL,
