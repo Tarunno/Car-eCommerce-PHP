@@ -1,5 +1,4 @@
 # Car-eCommerce-PHP
-# Car-eCommerce-PHP
 I have used OOP PHP for this project. So, the idea of this project was to deal with cars. Add cars and other auto parts for sell. add to Cart, get product informations.
 
 ![](view.gif)
@@ -17,6 +16,7 @@ features:<br>
         3. personal cart to show products one user added.<br>
         4. search cars.<br>
         5. admin panel for the admin to manage the contents.<br>
+        6. Form validations 
 
 ### Front-end Features :
 In front a i have used vanilla-js for interactivity
