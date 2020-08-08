@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Aldrich', sans-serif;
+}
+.nav{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.nav a{
+	font-size: 25px;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	text-decoration: none;
+	color: black;
+}
+.nav h1{
+	display: inline;
+	font-size: 30px;
+}
+.headling{
+	margin-top: 30px;
+	margin-left: 9.9%;
+}
+
+/* CARS */
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin:auto;
+	height: 100%;
+}
+.results{
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 70px;
+	min-height: 430px;
+}
+img{
+	margin: 2px;
+}
+.item{
+	text-align: right;
+	float: left;
+	width: 200px;
+	height: 240px;
+	margin-right: 13px;
+	margin-top: 13px;
+	background-color: #fff;
+	border-radius: 4px;
+	border: 0.005cm solid #ebebeb;
+	box-shadow: 3px 3px 3px lightgray;
+}
+.item h2, p{
+	font-size: 12px;
+	margin-right: 10px;
+}
+button{
+	border-radius: 2px;
+	border: none;
+	background-color: black;
+	color: #fff;
+	padding: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+/* THOUGHTS */
+.post{
+	height: 200px;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 4px;
+	border: 0.005cm solid #ebebeb;
+	box-shadow: 3px 3px 3px lightgray;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+.post h2{
+	margin-top: 20px;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.post i{
+	font-weight: bold;
+	font-size: 10px;
+	margin-left: 20px;
+}
+.post i p{
+	font-family: 'Aldrich', sans-serif;
+	margin: 0px;
+}
+.post p{
+	margin-left: 20px;
+}
+.post-mini1{
+	flex: 1;
+	border-radius: 4px;
+}
+.post-mini2{
+	flex: 3;
+}
+.post a{
+	text-decoration: none;
+	position: relative;
+	top: 80%;
+	margin-right: 20px;
+	display: inline;
+	padding: 5px 13px 5px 13px;
+	background-color: #34fa42;
+	border: none;
+	border-radius: 3px;
+	transition: .4s;
+	color: #fff;
+	box-shadow: 1px 1px 5px gray;
+	font-size: 10px;
+	height: 20px;
+}
+
+/* FOOTER */
+footer{
+	font-family: 'Aldrich', sans-serif;
+	position: flex;
+	bottom: -150px;
+	color: #fff;
+	height: 20vh;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	font-size: 13px;
+}
+footer .social{
+	padding: 17px;
+	font-size: 19px;
+	opacity: .7;
+	font-weight: lighter;
+	margin-top: 5px;
+}
+footer .social a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	opacity: .7;
+}
+footer .social a:hover{
+	opacity: 1;
+}
+footer .credit{
+	opacity: .7;
+	font-size: 10px;
+	position: relative;
+	bottom: 0px;
+	font-weight: lighter;
+}
+footer .credit h1{
+	font-size: 10px;
+	font-weight: lighter;
+}
