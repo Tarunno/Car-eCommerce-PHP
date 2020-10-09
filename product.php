@@ -62,7 +62,7 @@
         						<i class="fas fa-gas-pump"> <p>'.$row['mileage'].'km</p> </i>
         						<i class="fas fa-car-battery"> <p>'.$row['battery'].'</p> </i>
         						<i class="fas fa-oil-can"> <p>'.$row['fuel'].'</p> </i>
-        						<i class="fas fa-heartbeat"> <p>'.$row['total_run'].'</p> </i>
+        						<i class="fas fa-heartbeat"> <p>'.$row['total_run'].'km</p> </i>
         						<i class="fas fa-arrows-alt"> <p>'.$row['gear'].'</p> </i>
         					</div>
         				</div>
