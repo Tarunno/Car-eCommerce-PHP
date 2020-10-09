@@ -19,11 +19,11 @@
 			</div>
 			<div class="container">
 				<div class="results">
-					<h3>My cart <span class="cost"><i class="fas fa-donate"></i> <?php echo $total; ?> </span> </h3>
+					<h3>My cart <span class="cost"><i class="fas fa-donate"></i> <?php echo $total; ?> </span> <a href="checkout.php?user_id=<?php echo $user_id; ?>" class="checkout"> Checkout </a></h3>
 					<div class="product">
                         <?php
                         if($cartss->num_rows == 0){
-                            echo '<img class="empty-cart" src="Display_images/empty_cart.png">';
+                            echo '<img class="empty-cart" src="assets/Display_images/empty_cart.png">';
                             echo '<h1 class="empty-h1"> Empty Cart </h1>';
                         }
                         while($row = $cartss->fetch_assoc()){
@@ -37,7 +37,9 @@
                                         <p style="font-size: 10px; margin-top:20px; color: gray;">survived not only five centuries, but also the leap into electronic typesetting,
                                         remaining essentially unchanged. It was popularised in the 1960s with the release
                                         of Letraset sheets</p>
-                                        <button class="order-btn" type="button">Order now</button>
+                                        <form class="" action="product.php?id='.$row['id'].'" method="post">
+                   					 	    <button type="submit" class="order-btn"> Review</button>
+                   					    </form>
                                         <form action="cart.php?cnl_id='.$row['id'].'" method="post">
                                             <button class="cnl-btn" type="submit" name="cnl-submit">Cencel</button>
                                         </form>
@@ -54,7 +56,9 @@
                                         <p style="font-size: 10px; margin-top:20px; color: gray;">survived not only five centuries, but also the leap into electronic typesetting,
                                         remaining essentially unchanged. It was popularised in the 1960s with the release
                                         of Letraset sheets</p>
-                                        <button class="order-btn" type="button">Order now</button>
+                                        <form class="" action="product.php?id='.$row['id'].'" method="post">
+                   					 	    <button type="submit" class="order-btn"> Review</button>
+                   					    </form>
                                         <form action="cart.php?cnl_id='.$row['id'].'" method="post">
                                             <button class="cnl-btn" type="submit" name="cnl-submit">Cencel</button>
                                         </form>
