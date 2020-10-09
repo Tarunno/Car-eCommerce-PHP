@@ -25,7 +25,7 @@
 
 				if(in_array($file_actual_ext, $allowed)){
 					if($file_error === 0){
-						if($file_size < 250000000){
+						if($file_size < 5000000){
 							$full_file_name = "Car".$file_name."." . $file_actual_ext;
 							$file_direction = "assets/Car_images/" . $full_file_name;
 							move_uploaded_file($file_tmp_name, $file_direction);
