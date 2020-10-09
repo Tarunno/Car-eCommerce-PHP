@@ -9,6 +9,7 @@
 
 	$count = 0;
 	$total = 0;
+	$user_id = $_SESSION['id'];
 	while($row = $carts->fetch_assoc()){
 		$total += $row['product_price'];
 		$count++;
