@@ -18,7 +18,7 @@
 			$stmt->execute();
 		}
 		public function delete_cart($id){
-			$sql = "DELETE FROM cart WHERE id='$id'";
+			$sql = "DELETE FROM cart WHERE id='$id';";
 			$this->connect()->query($sql);
 		}
 		public function add_to_cart_product($product_id, $product_name, $product_price, $user_id, $user_name, $product_model, $user_email, $product_image, $product_id_2){
