@@ -55,6 +55,7 @@ body{
 	margin-top: 20px;
 	margin-bottom: 30px;
 	width: 120%;
+	font-size: 26px;
 }
 .item{
 	width:100%;
@@ -65,8 +66,20 @@ body{
 	margin-bottom: 20px;
 }
 .cost{
-	margin-left: 65%;
+	margin-left: 53%;
 	color: #29f23a;
+	font-size: 20px;
+}
+.checkout{
+	font-weight: lighter;
+	margin-left: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: black;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 20px;
 }
 .empty-cart{
 	position: relative;
