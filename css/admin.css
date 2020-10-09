@@ -116,7 +116,7 @@ nav h3{
 	min-height: 56vh;
 }
 .orders-table{
-	min-height: 30vh;
+	min-height: 140px;
 	border: 0.005cm solid #ebebeb;
 	border-radius: 5px;
 	box-shadow: 3px 3px 6px lightgray;
@@ -137,7 +137,7 @@ nav h3{
 	text-align: center;
 }
 table{
-	margin: 0px auto 10px;
+	margin: 0px auto 20px;
 	color: #4d4949;
 	width: 95%;
 	padding: 5px;
@@ -246,12 +246,9 @@ td{
 	border-radius: 6px;
 	border: 0.005cm solid #ebebeb;
 	box-shadow: 3px 3px 6px lightgray;
-	min-height: 550px;
 	text-align: center;
 }
 .update h1{
-	margin-top: 5px;
-	font-size: 20px;
 	text-align: center;
 	margin-bottom: 10px;
 }
@@ -334,7 +331,7 @@ textarea{
 	margin-top: 60px;
 	margin-bottom: 39px;
 	column-gap: 20px;
-	min-height: 400px;
+	min-height: 460px;
 }
 .stories-table{
 	flex: 2;
@@ -460,17 +457,17 @@ textarea{
 	margin-top: 60px;
 	margin-bottom: 39px;
 	column-gap: 20px;
-	min-height: 400px;
+	min-height: 460px;
 }
 .thoughts-table{
 	flex: 2;
 	border-radius: 6px;
 	border: 0.005cm solid #ebebeb;
 	box-shadow: 3px 3px 6px lightgray;
-	min-height: 300px;
+	min-height: 100px;
 }
 .my-thoughts .edit-thoughts{
-	max-height: 300px;
+	max-height: 340px;
 }
 .thoughts-table h1{
 	font-size: 20px;
@@ -616,6 +613,54 @@ textarea{
 	margin: 38% auto 7px;
 }
 
+
+
+/* Order details */
+.user-info h3{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.user-info{
+	width: 70%;
+	margin: auto;
+	height: auto;
+	font-family: 'Aldrich', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.order-container h3{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.order-container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.order-container{
+	width: 70%;
+	margin: auto;
+	height: auto;
+	font-family: 'Aldrich', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 90px;
+}
+.item{
+	float: left;
+	width: 160px;
+	height: 200px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 7px;
+	border-radius: 4px;
+	border: 0.005cm solid #ebebeb;
+	box-shadow: 3px 3px 3px lightgray;
+}
+.item img{
+	height: 130px;
+	width: 145px;
+}
 
 /* FOOTER */
 footer{
