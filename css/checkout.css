@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Aldrich', sans-serif;
+	width: 100%;
+	height: auto;
+}
+
+/* CART */
+.nav{
+	margin-top: 10px;
+}
+.nav{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	height: 60px;
+	margin-bottom: 30px;
+}
+.nav a{
+	font-size: 25px;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	text-decoration: none;
+	color: black;
+}
+.nav h1{
+	display: inline;
+	font-size: 30px;
+}
+.headling{
+	margin-top: 30px;
+	margin-left: 9.9%;
+}
+.container{
+	width: 70%;
+	margin: auto;
+}
+.checkout-info{
+	margin-top: 20px;
+	min-height: 350px;
+	width:100%;
+	border-radius: 4px;
+	border: 0.005cm solid #ebebeb;
+	box-shadow: 3px 3px 3px lightgray;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+}
+#checkout-flex{
+	flex: 1;
+}
+.checkout-info h3{
+	margin: 20px;
+}
+.checkout-info h4{
+	margin-left: 20px;
+}
+input{
+	width: 80%;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: lightgray;
+	border: none;
+	border-radius: 3px;
+}
+.order-submit-btn{
+	padding: 13px;
+	background-color: #111;
+	color: #ffffff;
+	border: none;
+	border-radius: 3px;
+	position: relative;
+	top: 140%;
+	left: 170%;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+/* FOOTER */
+footer{
+	position: absolute;
+	bottom: 0px;
+	color: #fff;
+	height: 20vh;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	font-size: 13px;
+}
+footer .social{
+	transition: 1.2s;
+	padding: 17px;
+	font-size: 13px;
+	opacity: .7;
+	font-weight: lighter;
+	margin-top: 5px;
+}
+footer .social a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	opacity: .7;
+}
+footer .social a:hover{
+	opacity: 1;
+}
+footer .credit{
+	opacity: .7;
+	font-size: 10px;
+	position: relative;
+	bottom: 0px;
+	font-weight: lighter;
+}
+footer .credit h1{
+	font-size: 10px;
+	font-weight: lighter;
+}
