@@ -3,6 +3,7 @@
 
 	$car = new Car();
 	$cars = $car->get_car();
+
 	if(isset($_POST['add-car-submit'])){
 		$file = $_FILES['image'];
 		$car->insert_car($_POST, $file);
@@ -18,10 +19,16 @@
 		header("Location: admin.php");
 	}
 
-	$cart = new Cart();
-	$carts = $cart->get_cart();
+	$order = new Order();
+	$orders = $order->get_order();
+
+	if(isset($_GET['order_id'])){
+		$order_items = $order->get_items($_GET['order_id']);
+		$order_id = $_GET['order_id'];
+	}
+
 	if(isset($_GET['del_id'])){
-		$cart->delete_cart($_GET['del_id']);
+		$order->delete_order($_GET['del_id']);
 		header("Location: admin.php");
 	}
 
