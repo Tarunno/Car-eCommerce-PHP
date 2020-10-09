@@ -44,36 +44,26 @@
 						<table>
 							<thead>
 								<th>id</th>
-								<th>Product</th>
-								<th>Model</th>
-								<th>Price</th>
-                                <th>User info</th>
+								<th>user id</th>
+                                <th>Order items</th>
 								<th>Delete</th>
 							</thead>
 							<tbody>
 								<?php
                                 $i=1;
-                                while($row = $carts->fetch_assoc())
+                                while($row = $orders->fetch_assoc())
                                 {
                                     echo '<tr>
     									<td>'.$i.'</td>
-    									<td>'.$row["product_name"].'</td>
-    									<td>'.$row["product_model"].'</td>
-    									<td>$'.$row["product_price"].'</td>
-                                        <td id="user-info" style="display:none;">'.$row["user_id"].' </td>
-                                        <td id="user-info" style="display:none;">'.$row["user_name"].' </td>
-                                        <td id="user-info" style="display:none;">'.$row["user_email"].' </td>
+    									<td>'.$row["user_id"].'</td>
     									<td class="user-btn">
-    										<form method="post">
-    											<i class="fas fa-address-card"></i>
-    										</form>
+    											<a href="orders.php?order_id='.$row["id"].'"><i class="fas fa-address-card"></i>
     									</td>
     									<td class="delete-btn">
     										<form action="admin.php?del_id='.$row['id'].'" method="post">
                                                 <button type="submit" name="delete-submit-cart" style="cursor:pointer; border:none; background: transparent; color: #f54c4c; width:100%;"> <i class="fas fa-trash-alt"></i> </button>
     										</form>
     									</td>
-                                        <td style="display: none;">'.$row['id'].'</td>
     								</tr>';
                                     $i++;
                                 }
