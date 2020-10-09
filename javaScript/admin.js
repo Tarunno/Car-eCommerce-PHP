@@ -8,6 +8,9 @@ function update(x){
 	table_rows.forEach((row) => {
 		if(row.id == x){
 			update_tab.style.display = "block";
+			update_tab.style.height = "550px";
+			document.querySelector('.update-cars h1').style.fontSize = "20px";
+			document.querySelector('.update-cars h1').style.marginTop = "10px";
 			add_tab.style.display = "none";
 			var td = row.childNodes;
 			for(var i=1; i<td.length; i+=2){
@@ -55,43 +58,6 @@ options.forEach((item, i) => {
 	});
 });
 
-// VIEW USER DETAILS
-var users = document.querySelectorAll('.user-btn');
-users.forEach((user, i) => {
-	user.addEventListener('click', function(){
-		var row = user.parentNode,
-			children = row.childNodes,
-			array = new Array();
-		var container = document.body,
-			section = document.createElement('div'),
-			infoWindow = document.createElement('div');
-		container.appendChild(section);
-		section.setAttribute('class', 'info-section');
-		section.appendChild(infoWindow);
-		infoWindow.setAttribute('class', 'info-window');
-		infoWindow.setAttribute('onclick', 'closeView()');
-
-		children.forEach((child, i) => {
-			if(i > 8 & i < 14 & child.nodeType == 1){
-				if(i == 9){
-					array.push('<i class="fas fa-hand-point-right"></i>'+ child.innerHTML);
-				}
-				else if(i == 11){
-					array.push('<i class="fas fa-user-tie"></i>'+ child.innerHTML);
-				}
-				else if(i == 13){
-					array.push('<i class="fas fa-envelope"></i>' + child.innerHTML);
-				}
-			}
-		});
-		for(let i=0; i<array.length; i++){
-			infoWindow.innerHTML += '<h1>' + array[i] + '</h1>';
-		}
-	});
-});
-function closeView(){
-	document.querySelector('.info-section').remove();
-}
 
 // ADD or UPADTE PRODUCTS FORM swapvar table_rows = document.querySelectorAll('tr');
 var table_rows_products = document.querySelectorAll('.products tr');
@@ -104,6 +70,8 @@ function update_product(x_products){
 		if(row_products.id == x_products){
 			update_tab_products.style.display = "block";
 			update_tab_products.style.height = "390px";
+			document.querySelector('.update-products h1').style.fontSize = "20px";
+			document.querySelector('.update-products h1').style.marginTop = "10px";
 			add_tab_products.style.display = "none";
 			var td_products = row_products.childNodes;
 			for(var i=1; i<td_products.length; i+=2){
