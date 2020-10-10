@@ -9,13 +9,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"  />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/checkout.css">
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 		<title>TARUNNO DRIVES | checkout</title>
 	</head>
 	<body>
-		<div class="all" data-aos="slide-right">
+		<div class="all">
 			<div class="nav">
-				<a href="index.php"><i class="fas fa-angle-double-left"></i></a><h1>TARUNNO DRIVES</h1>
+				<a href="cart.php"><i class="fas fa-angle-double-left"></i></a><h1>TARUNNO DRIVES</h1>
 			</div>
 			<div class="container">
 				<h2> Checkout </h2>
@@ -51,14 +50,5 @@
 		  	<h1>TARUNNO DRIVES | Developed by mahadi hasan tarunno</h1>
 		  </div>
 		</footer>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>
-			AOS.init({
-					offset: 100,
-					delay: 0,
-					duration: 1500,
-					once: true
-			});
-		</script>
 	</body>
 </html>
