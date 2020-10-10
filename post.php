@@ -9,16 +9,15 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"  />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/post.css">
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 		<title>TARUNNO DRIVES | more</title>
 	</head>
 	<body>
 		<div class="nav">
-			<a href="more.php?post=all_post"><i class="fas fa-angle-double-left"></i></a><h1>TARUNNO DRIVES</h1>
+			<a href="javascript:history.back();"><i class="fas fa-angle-double-left"></i></a><h1>TARUNNO DRIVES</h1>
 		</div>
 
         <h1 class="headling">Post</h1>
-		<div class="container" data-aos="slide-right">
+		<div class="container">
 			<div class="results">
 				<?php
 				  	$row = $thoughts->fetch_assoc();
@@ -53,14 +52,5 @@
 		  	<h1>TARUNNO DRIVES | Developed by mahadi hasan tarunno</h1>
 		  </div>
       </footer>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script type="text/javascript">
-        AOS.init({
-                offset: 0,
-                delay: 0,
-                duration: 1500,
-                once: true
-        });
-        </script>
 	</body>
 </html>
