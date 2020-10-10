@@ -23,7 +23,7 @@ body{
 .nav a{
 	font-size: 25px;
 	position: absolute;
-	top: 0px;
+	top: 10px;
 	left: 20px;
 	text-decoration: none;
 	color: black;
