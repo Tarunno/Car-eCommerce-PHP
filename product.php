@@ -13,13 +13,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"  />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/product.css">
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 		<title>TARUNNO DRIVES | product</title>
 	</head>
 	<body>
-		<div class="container" data-aos="slide-right">
+		<div class="container">
 			<div class="nav">
-				<a href="index.php"><i class="fas fa-angle-double-left"></i></a><h1>TARUNNO DRIVES</h1>
+				<a href="javascript:history.back();"><i class="fas fa-angle-double-left"></i></a><h1>TARUNNO DRIVES</h1>
 			</div>
 			<?php
 				if(isset($_SESSION['message'])){
@@ -98,7 +97,5 @@
 		  	<h1>TARUNNO DRIVES | Developed by mahadi hasan tarunno</h1>
 		  </div>
 		</footer>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script type="text/javascript" src="javascript/product.js"></script>
 	</body>
 </html>
