@@ -1,15 +1,6 @@
 # Car-eCommerce-PHP
 I have used OOP PHP for this project. So, the idea of this project was to deal with cars. Add cars and other auto parts for sell. add to Cart, get product informations.
-## Landing page
-![](GIF/view1.gif)
-## Main page
-![](GIF/home.gif)
-## Cart
-![](GIF/cart.gif)
-## Admin - books
-![](GIF/admin.gif)
-## Admin - Orders
-![](GIF/Order.gif)
+
 ### For more views go to the Screen shots folder
 
 The admin panel has 7 eidting option : users, orders, products, cars, my thoughts, stories and gallary. The admin can remove a member and his/her orders.
