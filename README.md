@@ -1,11 +1,11 @@
 # Car-eCommerce-PHP
 I have used OOP PHP for this project. So, the idea of this project was to deal with cars. Add cars and other auto parts for sell. add to Cart, get product informations.
 
-## Main page
+## Main Page
 ![](GIF/home.gif)
 ## Cart
 ![](GIF/cart.gif)
-## Admin - books
+## Admin Penel
 ![](GIF/admin.gif)
 
 ### For more views go to the Screen shots folder
